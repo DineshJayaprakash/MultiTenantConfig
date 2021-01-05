@@ -4,12 +4,12 @@ server:
 tenants:
   datasources:
     tenant1:
-      jdbcUrl: jdbc:mysql://localhost:3306/patientDb3?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
+      jdbcUrl: jdbc:mysql://localhost:3306/patientDb1?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
       driverClassName: com.mysql.cj.jdbc.Driver
       username: root
       password: Balaji@407
     tenant2:
-      jdbcUrl: jdbc:mysql://localhost:3306/patientDb3?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
+      jdbcUrl: jdbc:mysql://localhost:3306/patientDb2?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
       driverClassName: com.mysql.cj.jdbc.Driver
       username: root
       password: Balaji@407
