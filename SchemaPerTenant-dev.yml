@@ -6,14 +6,14 @@ tenants:
     tenant1:
       jdbcUrl: jdbc:postgresql://localhost:5432/patientdb4
       driverClassName: org.postgresql.Driver
-      username: ${username}
-      password: ${password}
+      username: postgres
+      password: Balaji@407
       schema: tenant1
     tenant2:
       jdbcUrl: jdbc:postgresql://localhost:5432/patientdb4
       driverClassName: org.postgresql.Driver
-      username: ${username}
-      password: ${password}
+      username: postgres
+      password: Balaji@407
       schema: tenant2
 spring:
   jpa:
