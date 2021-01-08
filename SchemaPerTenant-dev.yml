@@ -8,13 +8,13 @@ tenants:
       driverClassName: org.postgresql.Driver
       username: ${username}
       password: ${password}
-      schema: tenant1
+      schema: ${schema}
     tenant2:
       jdbcUrl: jdbc:postgresql://localhost:5432/patientdb4
       driverClassName: org.postgresql.Driver
       username: ${username}
       password: ${password}
-      schema: tenant2
+      schema: ${schema}
 spring:
   jpa:
   properties:
